@@ -1,0 +1,13 @@
+{
+  "string_num": "42",
+  "string_neg": "-3.14",
+  "string_exp": "1e10",
+  "string_true": "true",
+  "string_false": "false",
+  "string_null": "null",
+  "at_ref": "@everyone",
+  "at_num": "@1",
+  "real_num": 42,
+  "real_bool": true,
+  "real_null": null
+}

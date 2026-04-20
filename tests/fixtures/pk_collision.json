@@ -1,0 +1,4 @@
+{
+  "selected": {"pk": "XYZ-001", "name": "Primary", "value": 100},
+  "secondary": {"pk": "XYZ-002", "name": "Secondary", "value": 200}
+}

@@ -1,0 +1,12 @@
+:root
+:data
+x
+@1
+
+:items
+pk,name
+1,alpha
+
+:more
+pk,name
+1,beta

@@ -1,0 +1,9 @@
+:root
+:data
+selected,secondary
+@1,@2
+
+:items
+pk,pk,name,value
+1,XYZ-001,Primary,100
+2,XYZ-002,Secondary,200

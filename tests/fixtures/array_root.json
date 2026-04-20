@@ -1,0 +1,5 @@
+[
+  {"name": "Mercury", "diameter_km": 4879, "has_atmosphere": false},
+  {"name": "Venus", "diameter_km": 12104, "has_atmosphere": true},
+  {"name": "Earth", "diameter_km": 12756, "has_atmosphere": true}
+]

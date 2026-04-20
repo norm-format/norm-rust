@@ -1,0 +1,14 @@
+:root
+:planet
+name,position,habitable,atmosphere,seasons
+Mars,4,false,@1,@seasons
+
+:atmosphere
+pk,primary_gas,pressure_kpa
+1,CO2,0.636
+
+:seasons[]
+spring
+summer
+autumn
+winter

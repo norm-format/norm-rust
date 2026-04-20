@@ -1,0 +1,323 @@
+:root
+:solar_system
+star,planets,dwarf_planets,asteroid_belt,kuiper_belt,oort_cloud,missions
+@1,@planets,@dwarf_planets,@21,@22,@23,@missions
+
+:star
+pk,name,spectral_class,mass_kg,radius_km,surface_temp_k,core_temp_k,age_billion_years,luminosity_watts,composition
+1,Sol,G2V,1.989e30,695700,5778,15700000,4.6,3.828e26,@star_composition
+
+:star_composition
+element,percentage
+hydrogen,73.46
+helium,24.85
+oxygen,0.77
+carbon,0.29
+iron,0.16
+neon,0.12
+
+:planets
+name,position,type,mass_kg,diameter_km,density_g_cm3,surface_gravity_m_s2,escape_velocity_km_s,orbital,atmosphere,moons,rings,magnetic_field,discovery
+Mercury,1,terrestrial,3.301e23,4879,5.427,3.7,4.25,@2,null,@[],null,@15,null
+Venus,2,terrestrial,4.867e24,12104,5.243,8.87,10.36,@3,@venus_atm,@[],null,null,null
+Earth,3,terrestrial,5.972e24,12756,5.514,9.807,11.186,@4,@earth_atm,@earth_moons,null,@16,null
+Mars,4,terrestrial,6.417e23,6792,3.934,3.721,5.027,@5,@mars_atm,@mars_moons,null,null,null
+Jupiter,5,gas_giant,1.898e27,142984,1.326,24.79,59.5,@6,@jupiter_atm,@jupiter_moons,@jupiter_rings,@17,null
+Saturn,6,gas_giant,5.683e26,120536,0.687,10.44,35.5,@7,@saturn_atm,@saturn_moons,@saturn_rings,@18,null
+Uranus,7,ice_giant,8.681e25,51118,1.27,8.87,21.3,@8,@uranus_atm,@uranus_moons,@uranus_rings,@19,@24
+Neptune,8,ice_giant,1.024e26,49528,1.638,11.15,23.5,@9,@neptune_atm,@neptune_moons,@neptune_rings,@20,@25
+
+:orbital
+pk,semi_major_axis_au,eccentricity,orbital_period_days,rotation_period_hours,axial_tilt_deg
+2,0.387,0.2056,87.97,1407.6,0.034
+3,0.723,0.0068,224.7,-5832.5,177.36
+4,1.0,0.0167,365.25,23.934,23.44
+5,1.524,0.0934,687.0,24.623,25.19
+6,5.203,0.0489,4331.0,9.925,3.13
+7,9.537,0.0565,10747.0,10.656,26.73
+8,19.19,0.0457,30589.0,-17.24,97.77
+9,30.07,0.0113,59800.0,16.11,28.32
+10,39.48,0.2488,90560.0,-153.3,122.53
+11,2.768,0.0758,1682.0,9.074,4.0
+12,67.78,0.4407,204199.0,25.9,44.0
+13,43.13,0.1912,103410.0,3.915,null
+14,45.79,0.1559,113183.0,22.827,null
+
+:venus_atm
+gas,percentage
+carbon_dioxide,96.5
+nitrogen,3.5
+
+:earth_atm
+gas,percentage
+nitrogen,78.08
+oxygen,20.95
+argon,0.93
+carbon_dioxide,0.04
+
+:mars_atm
+gas,percentage
+carbon_dioxide,95.32
+nitrogen,2.7
+argon,1.6
+
+:jupiter_atm
+gas,percentage
+hydrogen,89.8
+helium,10.2
+
+:saturn_atm
+gas,percentage
+hydrogen,96.3
+helium,3.25
+
+:uranus_atm
+gas,percentage
+hydrogen,82.5
+helium,15.2
+methane,2.3
+
+:neptune_atm
+gas,percentage
+hydrogen,80.0
+helium,19.0
+methane,1.5
+
+:earth_moons
+name,diameter_km,mass_kg,orbital_period_days,discovery,atmosphere
+Moon,3475,7.342e22,27.32,null,null
+
+:mars_moons
+name,diameter_km,mass_kg,orbital_period_days,discovery,atmosphere
+Phobos,22.4,1.0659e16,0.319,@31,null
+Deimos,12.4,1.4762e15,1.263,@32,null
+
+:jupiter_moons
+name,diameter_km,mass_kg,orbital_period_days,discovery,atmosphere
+Io,3643,8.932e22,1.769,@33,@io_atm
+Europa,3122,4.8e22,3.551,@34,@europa_atm
+Ganymede,5268,1.482e23,7.155,@35,@ganymede_atm
+Callisto,4821,1.076e23,16.689,@36,@callisto_atm
+
+:io_atm
+gas,percentage
+sulfur_dioxide,90.0
+sodium,5.0
+potassium,5.0
+
+:europa_atm
+gas,percentage
+oxygen,100.0
+
+:ganymede_atm
+gas,percentage
+oxygen,100.0
+
+:callisto_atm
+gas,percentage
+carbon_dioxide,100.0
+
+:saturn_moons
+name,diameter_km,mass_kg,orbital_period_days,discovery,atmosphere
+Titan,5150,1.345e23,15.945,@37,@titan_atm
+Enceladus,504,1.08e20,1.37,@38,null
+Mimas,396,3.75e19,0.942,@39,null
+Rhea,1528,2.307e21,4.518,@40,null
+Iapetus,1470,1.806e21,79.322,@41,null
+Dione,1123,1.096e21,2.737,@42,null
+Tethys,1062,6.175e20,1.888,@43,null
+
+:titan_atm
+gas,percentage
+nitrogen,98.4
+methane,1.4
+
+:uranus_moons
+name,diameter_km,mass_kg,orbital_period_days,discovery,atmosphere
+Miranda,472,6.59e19,1.413,@44,null
+Ariel,1158,1.35e21,2.52,@45,null
+Umbriel,1170,1.17e21,4.144,@46,null
+Titania,1578,3.527e21,8.706,@47,null
+Oberon,1522,3.014e21,13.463,@48,null
+
+:neptune_moons
+name,diameter_km,mass_kg,orbital_period_days,discovery,atmosphere
+Triton,2707,2.14e22,-5.877,@49,@triton_atm
+Proteus,420,5.035e19,1.122,@50,null
+Nereid,340,3.1e19,360.14,@51,null
+
+:triton_atm
+gas,percentage
+nitrogen,99.9
+methane,0.1
+
+:jupiter_rings
+name,inner_radius_km,outer_radius_km,type
+Halo ring,92000,122500,faint
+Main ring,122500,129000,faint
+Gossamer ring,129000,226000,faint
+
+:saturn_rings
+name,inner_radius_km,outer_radius_km,type
+D Ring,66900,74510,faint
+C Ring,74658,92000,moderate
+B Ring,92000,117580,bright
+Cassini Division,117580,122170,gap
+A Ring,122170,136775,bright
+F Ring,140180,140680,narrow
+G Ring,170000,175000,faint
+E Ring,181000,483000,faint
+
+:uranus_rings
+name,inner_radius_km,outer_radius_km,type
+Epsilon ring,51149,51284,narrow
+
+:neptune_rings
+name,inner_radius_km,outer_radius_km,type
+Galle ring,41900,43900,faint
+Le Verrier ring,53200,53200,narrow
+Adams ring,62930,62940,narrow
+
+:magnetic_field
+pk,type,strength_microtesla,tilt_deg
+15,dipole,0.3,
+16,dipole,25.0,11.5
+17,dipole,417.0,9.6
+18,dipole,21.0,0.0
+19,quadrupole,23.0,59.0
+20,quadrupole,14.0,47.0
+
+:discovery
+pk,year,astronomer
+24,1781,William Herschel
+25,1846,Johann Galle
+26,1930,Clyde Tombaugh
+27,1801,Giuseppe Piazzi
+28,2005,Michael Brown
+29,2004,Michael Brown
+30,2005,Michael Brown
+31,1877,Asaph Hall
+32,1877,Asaph Hall
+33,1610,Galileo Galilei
+34,1610,Galileo Galilei
+35,1610,Galileo Galilei
+36,1610,Galileo Galilei
+37,1655,Christiaan Huygens
+38,1789,William Herschel
+39,1789,William Herschel
+40,1672,Giovanni Cassini
+41,1671,Giovanni Cassini
+42,1684,Giovanni Cassini
+43,1684,Giovanni Cassini
+44,1948,Gerard Kuiper
+45,1851,William Lassell
+46,1851,William Lassell
+47,1787,William Herschel
+48,1787,William Herschel
+49,1846,William Lassell
+50,1989,Voyager 2
+51,1949,Gerard Kuiper
+52,1978,James Christy
+53,2005,Hubble Space Telescope
+54,2005,Hubble Space Telescope
+55,2011,Hubble Space Telescope
+56,2012,Hubble Space Telescope
+57,2005,Michael Brown
+58,2005,Michael Brown
+59,2005,Michael Brown
+60,2015,Hubble Space Telescope
+
+:dwarf_planets
+name,mass_kg,diameter_km,density_g_cm3,orbital,atmosphere,moons,rings,discovery
+Pluto,1.303e22,2377,1.854,@10,@pluto_atm,@pluto_moons,,@26
+Ceres,9.393e20,939,2.162,@11,null,@[],,@27
+Eris,1.66e22,2326,2.52,@12,null,@eris_moons,,@28
+Haumea,4.006e21,1632,1.885,@13,null,@haumea_moons,@haumea_rings,@29
+Makemake,3.1e21,1430,1.7,@14,null,@makemake_moons,,@30
+
+:pluto_atm
+gas,percentage
+nitrogen,99.0
+methane,0.5
+carbon_monoxide,0.5
+
+:pluto_moons
+name,diameter_km,mass_kg,orbital_period_days,discovery,atmosphere
+Charon,1212,1.586e21,6.387,@52,null
+Nix,50,4.5e16,24.855,@53,null
+Hydra,65,4.8e16,38.206,@54,null
+Kerberos,19,1.65e16,32.168,@55,null
+Styx,16,7.5e15,20.162,@56,null
+
+:eris_moons
+name,diameter_km,mass_kg,orbital_period_days,discovery,atmosphere
+Dysnomia,700,null,15.774,@57,null
+
+:haumea_moons
+name,diameter_km,mass_kg,orbital_period_days,discovery,atmosphere
+Hiiaka,310,null,49.12,@58,null
+Namaka,170,null,18.28,@59,null
+
+:haumea_rings
+name,inner_radius_km,outer_radius_km,type
+Haumea ring,2287,2322,narrow
+
+:makemake_moons
+name,diameter_km,mass_kg,orbital_period_days,discovery,atmosphere
+MK2,175,null,12.4,@60,null
+
+:asteroid_belt
+pk,location,inner_boundary_au,outer_boundary_au,total_mass_kg,notable_asteroids
+21,between Mars and Jupiter,2.2,3.2,2.39e21,@notable_asteroids
+
+:notable_asteroids
+name,diameter_km,mass_kg,orbital_period_days
+Vesta,525,2.59e20,1325.0
+Pallas,512,2.11e20,1686.0
+Hygiea,434,8.32e19,2034.0
+Juno,233,2.67e19,1594.0
+
+:kuiper_belt
+pk,location,inner_boundary_au,outer_boundary_au,notable_objects
+22,beyond Neptune,30.0,50.0,@notable_objects
+
+:notable_objects[]
+Pluto
+Eris
+Makemake
+Haumea
+Quaoar
+Orcus
+Sedna
+
+:oort_cloud
+pk,location,inner_boundary_au,outer_boundary_au,estimated_objects,confirmed_objects
+23,outermost region,2000,100000,2e12,@[]
+
+:missions
+name,launch_year,status,targets,distance_au,notable
+Voyager 1,1977,active,@voyager1_targets,163.4,Farthest human-made object from Earth
+Voyager 2,1977,active,@voyager2_targets,136.5,Only spacecraft to visit all four giant planets
+New Horizons,2006,active,@nh_targets,58.7,null
+Cassini-Huygens,1997,completed,@cassini_targets,null,Deployed Huygens probe to Titan's surface
+Juno,2011,active,@juno_targets,null,null
+
+:voyager1_targets[]
+Jupiter
+Saturn
+
+:voyager2_targets[]
+Jupiter
+Saturn
+Uranus
+Neptune
+
+:nh_targets[]
+Pluto
+Arrokoth
+
+:cassini_targets[]
+Saturn
+
+:juno_targets[]
+Jupiter

@@ -1,0 +1,16 @@
+:root
+:data
+empty_obj,empty_arr,empty_str,null_val,nested
+@1,@[],"",null,@2
+
+:empty_obj
+pk
+1
+
+:nested
+pk,inner,list
+2,@3,@[]
+
+:inner
+pk
+3

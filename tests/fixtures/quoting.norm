@@ -1,0 +1,4 @@
+:root
+:data
+string_num,string_neg,string_exp,string_true,string_false,string_null,at_ref,at_num,real_num,real_bool,real_null
+"42","-3.14","1e10","true","false","null","@everyone","@1",42,true,null

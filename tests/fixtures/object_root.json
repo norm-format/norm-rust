@@ -1,0 +1,10 @@
+{
+  "name": "Mars",
+  "position": 4,
+  "habitable": false,
+  "atmosphere": {
+    "primary_gas": "CO2",
+    "pressure_kpa": 0.636
+  },
+  "seasons": ["spring", "summer", "autumn", "winter"]
+}

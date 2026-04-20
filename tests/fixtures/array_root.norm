@@ -1,0 +1,6 @@
+:root[]
+:planets
+name,diameter_km,has_atmosphere
+Mercury,4879,false
+Venus,12104,true
+Earth,12756,true

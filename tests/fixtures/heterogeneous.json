@@ -1,0 +1,5 @@
+[
+  {"type": "star", "name": "Sun", "luminosity": 1.0},
+  {"type": "planet", "name": "Earth", "moons": 1, "rings": false},
+  {"type": "comet", "name": "Halley", "period_years": 75.3, "discovered": null}
+]

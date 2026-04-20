@@ -1,0 +1,696 @@
+{
+  "star": {
+    "name": "Sol",
+    "spectral_class": "G2V",
+    "mass_kg": 1.989e30,
+    "radius_km": 695700,
+    "surface_temp_k": 5778,
+    "core_temp_k": 15700000,
+    "age_billion_years": 4.6,
+    "luminosity_watts": 3.828e26,
+    "composition": [
+      {"element": "hydrogen", "percentage": 73.46},
+      {"element": "helium", "percentage": 24.85},
+      {"element": "oxygen", "percentage": 0.77},
+      {"element": "carbon", "percentage": 0.29},
+      {"element": "iron", "percentage": 0.16},
+      {"element": "neon", "percentage": 0.12}
+    ]
+  },
+  "planets": [
+    {
+      "name": "Mercury",
+      "position": 1,
+      "type": "terrestrial",
+      "mass_kg": 3.301e23,
+      "diameter_km": 4879,
+      "density_g_cm3": 5.427,
+      "surface_gravity_m_s2": 3.7,
+      "escape_velocity_km_s": 4.25,
+      "orbital": {
+        "semi_major_axis_au": 0.387,
+        "eccentricity": 0.2056,
+        "orbital_period_days": 87.97,
+        "rotation_period_hours": 1407.6,
+        "axial_tilt_deg": 0.034
+      },
+      "atmosphere": null,
+      "moons": [],
+      "rings": null,
+      "magnetic_field": {
+        "type": "dipole",
+        "strength_microtesla": 0.3
+      },
+      "discovery": null
+    },
+    {
+      "name": "Venus",
+      "position": 2,
+      "type": "terrestrial",
+      "mass_kg": 4.867e24,
+      "diameter_km": 12104,
+      "density_g_cm3": 5.243,
+      "surface_gravity_m_s2": 8.87,
+      "escape_velocity_km_s": 10.36,
+      "orbital": {
+        "semi_major_axis_au": 0.723,
+        "eccentricity": 0.0068,
+        "orbital_period_days": 224.7,
+        "rotation_period_hours": -5832.5,
+        "axial_tilt_deg": 177.36
+      },
+      "atmosphere": [
+        {"gas": "carbon_dioxide", "percentage": 96.5},
+        {"gas": "nitrogen", "percentage": 3.5}
+      ],
+      "moons": [],
+      "rings": null,
+      "magnetic_field": null,
+      "discovery": null
+    },
+    {
+      "name": "Earth",
+      "position": 3,
+      "type": "terrestrial",
+      "mass_kg": 5.972e24,
+      "diameter_km": 12756,
+      "density_g_cm3": 5.514,
+      "surface_gravity_m_s2": 9.807,
+      "escape_velocity_km_s": 11.186,
+      "orbital": {
+        "semi_major_axis_au": 1.0,
+        "eccentricity": 0.0167,
+        "orbital_period_days": 365.25,
+        "rotation_period_hours": 23.934,
+        "axial_tilt_deg": 23.44
+      },
+      "atmosphere": [
+        {"gas": "nitrogen", "percentage": 78.08},
+        {"gas": "oxygen", "percentage": 20.95},
+        {"gas": "argon", "percentage": 0.93},
+        {"gas": "carbon_dioxide", "percentage": 0.04}
+      ],
+      "moons": [
+        {
+          "name": "Moon",
+          "diameter_km": 3475,
+          "mass_kg": 7.342e22,
+          "orbital_period_days": 27.32,
+          "discovery": null,
+          "atmosphere": null
+        }
+      ],
+      "rings": null,
+      "magnetic_field": {
+        "type": "dipole",
+        "strength_microtesla": 25.0,
+        "tilt_deg": 11.5
+      },
+      "discovery": null
+    },
+    {
+      "name": "Mars",
+      "position": 4,
+      "type": "terrestrial",
+      "mass_kg": 6.417e23,
+      "diameter_km": 6792,
+      "density_g_cm3": 3.934,
+      "surface_gravity_m_s2": 3.721,
+      "escape_velocity_km_s": 5.027,
+      "orbital": {
+        "semi_major_axis_au": 1.524,
+        "eccentricity": 0.0934,
+        "orbital_period_days": 687.0,
+        "rotation_period_hours": 24.623,
+        "axial_tilt_deg": 25.19
+      },
+      "atmosphere": [
+        {"gas": "carbon_dioxide", "percentage": 95.32},
+        {"gas": "nitrogen", "percentage": 2.7},
+        {"gas": "argon", "percentage": 1.6}
+      ],
+      "moons": [
+        {
+          "name": "Phobos",
+          "diameter_km": 22.4,
+          "mass_kg": 1.0659e16,
+          "orbital_period_days": 0.319,
+          "discovery": {"year": 1877, "astronomer": "Asaph Hall"},
+          "atmosphere": null
+        },
+        {
+          "name": "Deimos",
+          "diameter_km": 12.4,
+          "mass_kg": 1.4762e15,
+          "orbital_period_days": 1.263,
+          "discovery": {"year": 1877, "astronomer": "Asaph Hall"},
+          "atmosphere": null
+        }
+      ],
+      "rings": null,
+      "magnetic_field": null,
+      "discovery": null
+    },
+    {
+      "name": "Jupiter",
+      "position": 5,
+      "type": "gas_giant",
+      "mass_kg": 1.898e27,
+      "diameter_km": 142984,
+      "density_g_cm3": 1.326,
+      "surface_gravity_m_s2": 24.79,
+      "escape_velocity_km_s": 59.5,
+      "orbital": {
+        "semi_major_axis_au": 5.203,
+        "eccentricity": 0.0489,
+        "orbital_period_days": 4331.0,
+        "rotation_period_hours": 9.925,
+        "axial_tilt_deg": 3.13
+      },
+      "atmosphere": [
+        {"gas": "hydrogen", "percentage": 89.8},
+        {"gas": "helium", "percentage": 10.2}
+      ],
+      "moons": [
+        {
+          "name": "Io",
+          "diameter_km": 3643,
+          "mass_kg": 8.932e22,
+          "orbital_period_days": 1.769,
+          "discovery": {"year": 1610, "astronomer": "Galileo Galilei"},
+          "atmosphere": [
+            {"gas": "sulfur_dioxide", "percentage": 90.0},
+            {"gas": "sodium", "percentage": 5.0},
+            {"gas": "potassium", "percentage": 5.0}
+          ]
+        },
+        {
+          "name": "Europa",
+          "diameter_km": 3122,
+          "mass_kg": 4.8e22,
+          "orbital_period_days": 3.551,
+          "discovery": {"year": 1610, "astronomer": "Galileo Galilei"},
+          "atmosphere": [
+            {"gas": "oxygen", "percentage": 100.0}
+          ]
+        },
+        {
+          "name": "Ganymede",
+          "diameter_km": 5268,
+          "mass_kg": 1.482e23,
+          "orbital_period_days": 7.155,
+          "discovery": {"year": 1610, "astronomer": "Galileo Galilei"},
+          "atmosphere": [
+            {"gas": "oxygen", "percentage": 100.0}
+          ]
+        },
+        {
+          "name": "Callisto",
+          "diameter_km": 4821,
+          "mass_kg": 1.076e23,
+          "orbital_period_days": 16.689,
+          "discovery": {"year": 1610, "astronomer": "Galileo Galilei"},
+          "atmosphere": [
+            {"gas": "carbon_dioxide", "percentage": 100.0}
+          ]
+        }
+      ],
+      "rings": [
+        {"name": "Halo ring", "inner_radius_km": 92000, "outer_radius_km": 122500, "type": "faint"},
+        {"name": "Main ring", "inner_radius_km": 122500, "outer_radius_km": 129000, "type": "faint"},
+        {"name": "Gossamer ring", "inner_radius_km": 129000, "outer_radius_km": 226000, "type": "faint"}
+      ],
+      "magnetic_field": {
+        "type": "dipole",
+        "strength_microtesla": 417.0,
+        "tilt_deg": 9.6
+      },
+      "discovery": null
+    },
+    {
+      "name": "Saturn",
+      "position": 6,
+      "type": "gas_giant",
+      "mass_kg": 5.683e26,
+      "diameter_km": 120536,
+      "density_g_cm3": 0.687,
+      "surface_gravity_m_s2": 10.44,
+      "escape_velocity_km_s": 35.5,
+      "orbital": {
+        "semi_major_axis_au": 9.537,
+        "eccentricity": 0.0565,
+        "orbital_period_days": 10747.0,
+        "rotation_period_hours": 10.656,
+        "axial_tilt_deg": 26.73
+      },
+      "atmosphere": [
+        {"gas": "hydrogen", "percentage": 96.3},
+        {"gas": "helium", "percentage": 3.25}
+      ],
+      "moons": [
+        {
+          "name": "Titan",
+          "diameter_km": 5150,
+          "mass_kg": 1.345e23,
+          "orbital_period_days": 15.945,
+          "discovery": {"year": 1655, "astronomer": "Christiaan Huygens"},
+          "atmosphere": [
+            {"gas": "nitrogen", "percentage": 98.4},
+            {"gas": "methane", "percentage": 1.4}
+          ]
+        },
+        {
+          "name": "Enceladus",
+          "diameter_km": 504,
+          "mass_kg": 1.08e20,
+          "orbital_period_days": 1.37,
+          "discovery": {"year": 1789, "astronomer": "William Herschel"},
+          "atmosphere": null
+        },
+        {
+          "name": "Mimas",
+          "diameter_km": 396,
+          "mass_kg": 3.75e19,
+          "orbital_period_days": 0.942,
+          "discovery": {"year": 1789, "astronomer": "William Herschel"},
+          "atmosphere": null
+        },
+        {
+          "name": "Rhea",
+          "diameter_km": 1528,
+          "mass_kg": 2.307e21,
+          "orbital_period_days": 4.518,
+          "discovery": {"year": 1672, "astronomer": "Giovanni Cassini"},
+          "atmosphere": null
+        },
+        {
+          "name": "Iapetus",
+          "diameter_km": 1470,
+          "mass_kg": 1.806e21,
+          "orbital_period_days": 79.322,
+          "discovery": {"year": 1671, "astronomer": "Giovanni Cassini"},
+          "atmosphere": null
+        },
+        {
+          "name": "Dione",
+          "diameter_km": 1123,
+          "mass_kg": 1.096e21,
+          "orbital_period_days": 2.737,
+          "discovery": {"year": 1684, "astronomer": "Giovanni Cassini"},
+          "atmosphere": null
+        },
+        {
+          "name": "Tethys",
+          "diameter_km": 1062,
+          "mass_kg": 6.175e20,
+          "orbital_period_days": 1.888,
+          "discovery": {"year": 1684, "astronomer": "Giovanni Cassini"},
+          "atmosphere": null
+        }
+      ],
+      "rings": [
+        {"name": "D Ring", "inner_radius_km": 66900, "outer_radius_km": 74510, "type": "faint"},
+        {"name": "C Ring", "inner_radius_km": 74658, "outer_radius_km": 92000, "type": "moderate"},
+        {"name": "B Ring", "inner_radius_km": 92000, "outer_radius_km": 117580, "type": "bright"},
+        {"name": "Cassini Division", "inner_radius_km": 117580, "outer_radius_km": 122170, "type": "gap"},
+        {"name": "A Ring", "inner_radius_km": 122170, "outer_radius_km": 136775, "type": "bright"},
+        {"name": "F Ring", "inner_radius_km": 140180, "outer_radius_km": 140680, "type": "narrow"},
+        {"name": "G Ring", "inner_radius_km": 170000, "outer_radius_km": 175000, "type": "faint"},
+        {"name": "E Ring", "inner_radius_km": 181000, "outer_radius_km": 483000, "type": "faint"}
+      ],
+      "magnetic_field": {
+        "type": "dipole",
+        "strength_microtesla": 21.0,
+        "tilt_deg": 0.0
+      },
+      "discovery": null
+    },
+    {
+      "name": "Uranus",
+      "position": 7,
+      "type": "ice_giant",
+      "mass_kg": 8.681e25,
+      "diameter_km": 51118,
+      "density_g_cm3": 1.27,
+      "surface_gravity_m_s2": 8.87,
+      "escape_velocity_km_s": 21.3,
+      "orbital": {
+        "semi_major_axis_au": 19.19,
+        "eccentricity": 0.0457,
+        "orbital_period_days": 30589.0,
+        "rotation_period_hours": -17.24,
+        "axial_tilt_deg": 97.77
+      },
+      "atmosphere": [
+        {"gas": "hydrogen", "percentage": 82.5},
+        {"gas": "helium", "percentage": 15.2},
+        {"gas": "methane", "percentage": 2.3}
+      ],
+      "moons": [
+        {
+          "name": "Miranda",
+          "diameter_km": 472,
+          "mass_kg": 6.59e19,
+          "orbital_period_days": 1.413,
+          "discovery": {"year": 1948, "astronomer": "Gerard Kuiper"},
+          "atmosphere": null
+        },
+        {
+          "name": "Ariel",
+          "diameter_km": 1158,
+          "mass_kg": 1.35e21,
+          "orbital_period_days": 2.52,
+          "discovery": {"year": 1851, "astronomer": "William Lassell"},
+          "atmosphere": null
+        },
+        {
+          "name": "Umbriel",
+          "diameter_km": 1170,
+          "mass_kg": 1.17e21,
+          "orbital_period_days": 4.144,
+          "discovery": {"year": 1851, "astronomer": "William Lassell"},
+          "atmosphere": null
+        },
+        {
+          "name": "Titania",
+          "diameter_km": 1578,
+          "mass_kg": 3.527e21,
+          "orbital_period_days": 8.706,
+          "discovery": {"year": 1787, "astronomer": "William Herschel"},
+          "atmosphere": null
+        },
+        {
+          "name": "Oberon",
+          "diameter_km": 1522,
+          "mass_kg": 3.014e21,
+          "orbital_period_days": 13.463,
+          "discovery": {"year": 1787, "astronomer": "William Herschel"},
+          "atmosphere": null
+        }
+      ],
+      "rings": [
+        {"name": "Epsilon ring", "inner_radius_km": 51149, "outer_radius_km": 51284, "type": "narrow"}
+      ],
+      "magnetic_field": {
+        "type": "quadrupole",
+        "strength_microtesla": 23.0,
+        "tilt_deg": 59.0
+      },
+      "discovery": {"year": 1781, "astronomer": "William Herschel"}
+    },
+    {
+      "name": "Neptune",
+      "position": 8,
+      "type": "ice_giant",
+      "mass_kg": 1.024e26,
+      "diameter_km": 49528,
+      "density_g_cm3": 1.638,
+      "surface_gravity_m_s2": 11.15,
+      "escape_velocity_km_s": 23.5,
+      "orbital": {
+        "semi_major_axis_au": 30.07,
+        "eccentricity": 0.0113,
+        "orbital_period_days": 59800.0,
+        "rotation_period_hours": 16.11,
+        "axial_tilt_deg": 28.32
+      },
+      "atmosphere": [
+        {"gas": "hydrogen", "percentage": 80.0},
+        {"gas": "helium", "percentage": 19.0},
+        {"gas": "methane", "percentage": 1.5}
+      ],
+      "moons": [
+        {
+          "name": "Triton",
+          "diameter_km": 2707,
+          "mass_kg": 2.14e22,
+          "orbital_period_days": -5.877,
+          "discovery": {"year": 1846, "astronomer": "William Lassell"},
+          "atmosphere": [
+            {"gas": "nitrogen", "percentage": 99.9},
+            {"gas": "methane", "percentage": 0.1}
+          ]
+        },
+        {
+          "name": "Proteus",
+          "diameter_km": 420,
+          "mass_kg": 5.035e19,
+          "orbital_period_days": 1.122,
+          "discovery": {"year": 1989, "astronomer": "Voyager 2"},
+          "atmosphere": null
+        },
+        {
+          "name": "Nereid",
+          "diameter_km": 340,
+          "mass_kg": 3.1e19,
+          "orbital_period_days": 360.14,
+          "discovery": {"year": 1949, "astronomer": "Gerard Kuiper"},
+          "atmosphere": null
+        }
+      ],
+      "rings": [
+        {"name": "Galle ring", "inner_radius_km": 41900, "outer_radius_km": 43900, "type": "faint"},
+        {"name": "Le Verrier ring", "inner_radius_km": 53200, "outer_radius_km": 53200, "type": "narrow"},
+        {"name": "Adams ring", "inner_radius_km": 62930, "outer_radius_km": 62940, "type": "narrow"}
+      ],
+      "magnetic_field": {
+        "type": "quadrupole",
+        "strength_microtesla": 14.0,
+        "tilt_deg": 47.0
+      },
+      "discovery": {"year": 1846, "astronomer": "Johann Galle"}
+    }
+  ],
+  "dwarf_planets": [
+    {
+      "name": "Pluto",
+      "mass_kg": 1.303e22,
+      "diameter_km": 2377,
+      "density_g_cm3": 1.854,
+      "orbital": {
+        "semi_major_axis_au": 39.48,
+        "eccentricity": 0.2488,
+        "orbital_period_days": 90560.0,
+        "rotation_period_hours": -153.3,
+        "axial_tilt_deg": 122.53
+      },
+      "atmosphere": [
+        {"gas": "nitrogen", "percentage": 99.0},
+        {"gas": "methane", "percentage": 0.5},
+        {"gas": "carbon_monoxide", "percentage": 0.5}
+      ],
+      "moons": [
+        {
+          "name": "Charon",
+          "diameter_km": 1212,
+          "mass_kg": 1.586e21,
+          "orbital_period_days": 6.387,
+          "discovery": {"year": 1978, "astronomer": "James Christy"},
+          "atmosphere": null
+        },
+        {
+          "name": "Nix",
+          "diameter_km": 50,
+          "mass_kg": 4.5e16,
+          "orbital_period_days": 24.855,
+          "discovery": {"year": 2005, "astronomer": "Hubble Space Telescope"},
+          "atmosphere": null
+        },
+        {
+          "name": "Hydra",
+          "diameter_km": 65,
+          "mass_kg": 4.8e16,
+          "orbital_period_days": 38.206,
+          "discovery": {"year": 2005, "astronomer": "Hubble Space Telescope"},
+          "atmosphere": null
+        },
+        {
+          "name": "Kerberos",
+          "diameter_km": 19,
+          "mass_kg": 1.65e16,
+          "orbital_period_days": 32.168,
+          "discovery": {"year": 2011, "astronomer": "Hubble Space Telescope"},
+          "atmosphere": null
+        },
+        {
+          "name": "Styx",
+          "diameter_km": 16,
+          "mass_kg": 7.5e15,
+          "orbital_period_days": 20.162,
+          "discovery": {"year": 2012, "astronomer": "Hubble Space Telescope"},
+          "atmosphere": null
+        }
+      ],
+      "discovery": {"year": 1930, "astronomer": "Clyde Tombaugh"}
+    },
+    {
+      "name": "Ceres",
+      "mass_kg": 9.393e20,
+      "diameter_km": 939,
+      "density_g_cm3": 2.162,
+      "orbital": {
+        "semi_major_axis_au": 2.768,
+        "eccentricity": 0.0758,
+        "orbital_period_days": 1682.0,
+        "rotation_period_hours": 9.074,
+        "axial_tilt_deg": 4.0
+      },
+      "atmosphere": null,
+      "moons": [],
+      "discovery": {"year": 1801, "astronomer": "Giuseppe Piazzi"}
+    },
+    {
+      "name": "Eris",
+      "mass_kg": 1.66e22,
+      "diameter_km": 2326,
+      "density_g_cm3": 2.52,
+      "orbital": {
+        "semi_major_axis_au": 67.78,
+        "eccentricity": 0.4407,
+        "orbital_period_days": 204199.0,
+        "rotation_period_hours": 25.9,
+        "axial_tilt_deg": 44.0
+      },
+      "atmosphere": null,
+      "moons": [
+        {
+          "name": "Dysnomia",
+          "diameter_km": 700,
+          "mass_kg": null,
+          "orbital_period_days": 15.774,
+          "discovery": {"year": 2005, "astronomer": "Michael Brown"},
+          "atmosphere": null
+        }
+      ],
+      "discovery": {"year": 2005, "astronomer": "Michael Brown"}
+    },
+    {
+      "name": "Haumea",
+      "mass_kg": 4.006e21,
+      "diameter_km": 1632,
+      "density_g_cm3": 1.885,
+      "orbital": {
+        "semi_major_axis_au": 43.13,
+        "eccentricity": 0.1912,
+        "orbital_period_days": 103410.0,
+        "rotation_period_hours": 3.915,
+        "axial_tilt_deg": null
+      },
+      "atmosphere": null,
+      "moons": [
+        {
+          "name": "Hiiaka",
+          "diameter_km": 310,
+          "mass_kg": null,
+          "orbital_period_days": 49.12,
+          "discovery": {"year": 2005, "astronomer": "Michael Brown"},
+          "atmosphere": null
+        },
+        {
+          "name": "Namaka",
+          "diameter_km": 170,
+          "mass_kg": null,
+          "orbital_period_days": 18.28,
+          "discovery": {"year": 2005, "astronomer": "Michael Brown"},
+          "atmosphere": null
+        }
+      ],
+      "rings": [
+        {"name": "Haumea ring", "inner_radius_km": 2287, "outer_radius_km": 2322, "type": "narrow"}
+      ],
+      "discovery": {"year": 2004, "astronomer": "Michael Brown"}
+    },
+    {
+      "name": "Makemake",
+      "mass_kg": 3.1e21,
+      "diameter_km": 1430,
+      "density_g_cm3": 1.7,
+      "orbital": {
+        "semi_major_axis_au": 45.79,
+        "eccentricity": 0.1559,
+        "orbital_period_days": 113183.0,
+        "rotation_period_hours": 22.827,
+        "axial_tilt_deg": null
+      },
+      "atmosphere": null,
+      "moons": [
+        {
+          "name": "MK2",
+          "diameter_km": 175,
+          "mass_kg": null,
+          "orbital_period_days": 12.4,
+          "discovery": {"year": 2015, "astronomer": "Hubble Space Telescope"},
+          "atmosphere": null
+        }
+      ],
+      "discovery": {"year": 2005, "astronomer": "Michael Brown"}
+    }
+  ],
+  "asteroid_belt": {
+    "location": "between Mars and Jupiter",
+    "inner_boundary_au": 2.2,
+    "outer_boundary_au": 3.2,
+    "total_mass_kg": 2.39e21,
+    "notable_asteroids": [
+      {"name": "Vesta", "diameter_km": 525, "mass_kg": 2.59e20, "orbital_period_days": 1325.0},
+      {"name": "Pallas", "diameter_km": 512, "mass_kg": 2.11e20, "orbital_period_days": 1686.0},
+      {"name": "Hygiea", "diameter_km": 434, "mass_kg": 8.32e19, "orbital_period_days": 2034.0},
+      {"name": "Juno", "diameter_km": 233, "mass_kg": 2.67e19, "orbital_period_days": 1594.0}
+    ]
+  },
+  "kuiper_belt": {
+    "location": "beyond Neptune",
+    "inner_boundary_au": 30.0,
+    "outer_boundary_au": 50.0,
+    "notable_objects": ["Pluto", "Eris", "Makemake", "Haumea", "Quaoar", "Orcus", "Sedna"]
+  },
+  "oort_cloud": {
+    "location": "outermost region",
+    "inner_boundary_au": 2000,
+    "outer_boundary_au": 100000,
+    "estimated_objects": 2e12,
+    "confirmed_objects": []
+  },
+  "missions": [
+    {
+      "name": "Voyager 1",
+      "launch_year": 1977,
+      "status": "active",
+      "targets": ["Jupiter", "Saturn"],
+      "distance_au": 163.4,
+      "notable": "Farthest human-made object from Earth"
+    },
+    {
+      "name": "Voyager 2",
+      "launch_year": 1977,
+      "status": "active",
+      "targets": ["Jupiter", "Saturn", "Uranus", "Neptune"],
+      "distance_au": 136.5,
+      "notable": "Only spacecraft to visit all four giant planets"
+    },
+    {
+      "name": "New Horizons",
+      "launch_year": 2006,
+      "status": "active",
+      "targets": ["Pluto", "Arrokoth"],
+      "distance_au": 58.7,
+      "notable": null
+    },
+    {
+      "name": "Cassini-Huygens",
+      "launch_year": 1997,
+      "status": "completed",
+      "targets": ["Saturn"],
+      "distance_au": null,
+      "notable": "Deployed Huygens probe to Titan's surface"
+    },
+    {
+      "name": "Juno",
+      "launch_year": 2011,
+      "status": "active",
+      "targets": ["Jupiter"],
+      "distance_au": null,
+      "notable": null
+    }
+  ]
+}

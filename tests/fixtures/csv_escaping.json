@@ -1,0 +1,8 @@
+{
+  "with_comma": "Hot, dense, and cloudy",
+  "with_quotes": "Sagan said \"billions and billions\"",
+  "with_newline": "line one\nline two",
+  "with_spaces": "  spaced  ",
+  "with_hash": "color #FF0000",
+  "complex": "He said, \"it's 100% true!\"\nAnd then left."
+}

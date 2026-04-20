@@ -1,0 +1,24 @@
+[package]
+name = "norm-codec"
+version = "0.1.0"
+edition = "2021"
+license = "MPL-2.0"
+description = "Parser and encoder for the NORM (Normalised Object Relational Model) data format"
+repository = "https://github.com/norm-format/norm-rust"
+readme = "README.md"
+categories = ["encoding", "parser-implementations"]
+keywords = ["norm", "json", "parser", "encoder"]
+
+[features]
+default = []
+cli = ["dep:clap"]
+
+[dependencies]
+serde_json = { version = "1", features = ["preserve_order", "arbitrary_precision"] }
+thiserror = "2"
+clap = { version = "4", features = ["derive"], optional = true }
+
+[[bin]]
+name = "norm"
+path = "src/bin/main.rs"
+required-features = ["cli"]

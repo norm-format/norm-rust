@@ -1,0 +1,6 @@
+:root[]
+:bodies
+type,name,luminosity,moons,rings,period_years,discovered
+star,Sun,1.0,,,,
+planet,Earth,,1,false,,
+comet,Halley,,,,75.3,null

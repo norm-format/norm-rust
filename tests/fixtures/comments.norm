@@ -1,0 +1,8 @@
+# norm 0.1
+# This file tests comment parsing
+:root[]          # root is an array
+# Section follows
+:data            # main data section
+pk,name,type
+1,Sol,star
+2,Earth,planet

@@ -1,0 +1,6 @@
+:root
+:data
+with_comma,with_quotes,with_newline,with_spaces,with_hash,complex
+"Hot, dense, and cloudy","Sagan said ""billions and billions""","line one
+line two","  spaced  ",color #FF0000,"He said, ""it's 100% true!""
+And then left."

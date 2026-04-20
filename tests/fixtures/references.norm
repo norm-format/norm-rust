@@ -1,0 +1,18 @@
+:root
+:mission
+name,launch_year,target,instruments,visited,crew
+Voyager 1,1977,@1,@instruments,@visited,@[]
+
+:target
+pk,name,type
+1,Jupiter,gas_giant
+
+:instruments[]
+cosmic_ray
+plasma
+magnetometer
+
+:visited
+name,year
+Jupiter,1979
+Saturn,1980

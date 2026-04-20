@@ -1,0 +1,14 @@
+{
+  "name": "Voyager 1",
+  "launch_year": 1977,
+  "target": {
+    "name": "Jupiter",
+    "type": "gas_giant"
+  },
+  "instruments": ["cosmic_ray", "plasma", "magnetometer"],
+  "visited": [
+    {"name": "Jupiter", "year": 1979},
+    {"name": "Saturn", "year": 1980}
+  ],
+  "crew": []
+}
